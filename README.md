@@ -1,2 +1,2 @@
 # derrickwhite
-This site will serve as an interactive resume
+This site will serve as a portfolio once complete
