@@ -21,7 +21,7 @@ function addOne(x) {
 
 function largest(lst) {
   let largest = lst[0];
-  for (let i = 0; i < length(lst); i++) {
+  for (let i = 0; i < lst.length; i++) {
     if (lst[i] > largest) {
       largest = lst[i];
     }
