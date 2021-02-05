@@ -26,6 +26,7 @@ function largest(lst) {
       largest = lst[i];
     }
   }
+  return largest;
 }
 
 /**
@@ -41,11 +42,10 @@ function largest(lst) {
 
 function fact(n) {
   let val = 1;
-  for (let i = n; i > -1; i--) {
-    if (i != 0 && i || 1) {
-      val *= i;
-    }
+  for (let i = n; i > 0; i--) {
+    val = val * i;
   }
+  return val;
 }
 
 /**
@@ -70,4 +70,13 @@ function fact(n) {
   */
 
 function fib(n) {
+  if (n === 0) {
+    return 0;
+  }
+  else if (n === 1) {
+    return 1;
+  }
+  else {
+    return fib(n - 1) + fib(n - 2);
+  }
 }
