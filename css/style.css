@@ -6,3 +6,38 @@ ul {
 ul li {
     display: inline;
 }
+
+a:hover {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #a3944f;
+}
+
+a:hover {
+    color: #a061bb;
+}
+
+h1 {
+    color: #a061bb;
+    font-family: 'Nunito';
+    font-size: 40px;
+}
+
+h2 {
+    size: 30px;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: 'Lora';
+}
+
+.info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
