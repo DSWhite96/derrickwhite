@@ -41,3 +41,8 @@ body {
     margin-right: auto;
     width: 50%;
 }
+
+.darkMode {
+    background-color: black;
+    color: white;
+}
